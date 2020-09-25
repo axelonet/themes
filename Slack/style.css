@@ -88,12 +88,16 @@ body, .channel_header, #footer, .channel_title_info, #channel_topic_text, .p-mes
     background: #010f1d !important;
 }
 
-nav.p-channel_sidebar .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .c-message_list__day_divider__label__pill, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .c-button--primary {
+nav.p-channel_sidebar .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .c-message_list__day_divider__label__pill, .c-button--primary {
     color: #eee !important;
     background: rgb(241, 93, 40) !important;
 }
 
-.p-channel_sidebar__channel:hover {
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before {
+    height: 0px;
+}
+
+.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover {
     color: #eee !important;
     background: rgba(241, 93, 40, 0.5) !important;
 }
