@@ -1,36 +1,37 @@
 /* Set italics and comments to the script font */
 .mtk3, .mtk4 {
-    font-family: 'Script12 BT';
-    font-size: 1.2em;
-    font-style: normal;
-    color: #57a649!important;
-}
-.comment {
   font-family: 'Script12 BT';
-  font-style: italic;
   font-size: 1.2em;
+  font-style: normal;
   color: #57a649!important;
 }
+.comment {
+font-family: 'Script12 BT';
+font-style: italic;
+font-size: 1.2em;
+color: #57a649!important;
+}
 .comment:not(.punctuation) {
-    font-family: 'Script12 BT';
-    font-size: 1.5em;
-    color: #57a649!important;
+  font-family: 'Script12 BT';
+  font-size: 1.5em;
+  color: #57a649!important;
 }
 
 /*
   1. Install Custom CSS and JS loader from vs-code marketplace
   2. Add this file to "~/.vs-code/vs-code-styles.css"
+  3. Download the font (https://www.dafontfree.net/freefonts-script12-bt-f141942.htm)
   3. Add the following to the user preferences JSON
   "vscode_custom_css.imports": ["file:///Users/axelonet/.vscode/vs-code-styles.css"],
-	"vscode_custom_css.policy": true,
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"scope": "comment",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			}
-		]
+  "vscode_custom_css.policy": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
   }
 */
