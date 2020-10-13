@@ -1,3 +1,10 @@
+/*
+    Custom stylesheet for slack (Postman midnight black themed)
+    1. Install Extension Custom Style Script
+    2. Paste this css into app.slack URL
+    3. BABOOSKA!!!
+*/
+
 body, .channel_header, #footer, .channel_title_info, #channel_topic_text, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-classic_nav, footer, .p-classic_nav__team_header, .p-prefs_modal, .c-fullscreen_modal__header, .workspace__primary_view_footer {
     background: #000000 !important;
 }
